@@ -50,6 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dba50d709319294b84e274b2662598d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bounceForce: 50
+  _bounceRadius: 50
 --- !u!1001 &810996070035746500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -127,7 +129,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &3203659439889950157
 MeshCollider:
@@ -211,6 +213,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6dee94cf7fede9f439b88f260322dded, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4cc5f847c3302ac419357235307bacbb, type: 2}
     - target: {fileID: 919132149155446097, guid: 6dee94cf7fede9f439b88f260322dded, type: 3}
       propertyPath: m_Name
       value: 60degree
@@ -236,7 +242,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &7641711130364021702
 MeshCollider:
@@ -346,7 +352,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &7996861794769704188
 MeshCollider:
@@ -430,6 +436,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6dee94cf7fede9f439b88f260322dded, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4cc5f847c3302ac419357235307bacbb, type: 2}
     - target: {fileID: 919132149155446097, guid: 6dee94cf7fede9f439b88f260322dded, type: 3}
       propertyPath: m_Name
       value: 60degree (1)
@@ -455,7 +465,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &6353844929936392847
 MeshCollider:
@@ -565,7 +575,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &8191404299457973622
 MeshCollider:
@@ -675,7 +685,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &1263055384601354116
 MeshCollider:

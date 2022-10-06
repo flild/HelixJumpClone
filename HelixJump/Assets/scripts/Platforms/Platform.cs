@@ -17,4 +17,5 @@ public class Platform : MonoBehaviour
             segment.Bounce(_bounceForce, transform.position, _bounceRadius);
         }
     }
+        
 }
